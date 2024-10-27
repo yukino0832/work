@@ -4,12 +4,4 @@ Run steps:
 
 bash setup.bash
 
-mkdir build
-
-cd build
-
-cmake ..
-
-make
-
-./main
+bash run.bash
