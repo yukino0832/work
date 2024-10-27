@@ -1,7 +1,8 @@
 # The first c++ program experiment
 
-Run steps:
-
-bash setup.bash
-
-bash run.bash
+Run steps(only for linux):  
+bash setup.bash  
+mkdir build && cd build  
+cmake ..  
+make  
+./main
